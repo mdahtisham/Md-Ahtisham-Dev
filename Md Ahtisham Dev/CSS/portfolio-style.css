@@ -1,0 +1,346 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* _________________________________Navbar__________________________________ */
+
+.navbar-container{
+    /* border: 2px solid red; */
+    display: flex;
+}
+.navbar-icon{
+    width: 5vw;
+    text-align: center;
+    margin: 20px 40px;
+}
+ul{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 90vw;
+    justify-content: end;
+}
+li{
+    list-style: none;
+    display: flex;
+    margin: 10px 15px;
+}
+.anchor-nav{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.anchor-nav:hover{
+    background-color: white;
+    color: black;
+}
+
+/* _________________________________Home__________________________________ */
+
+.home-container{
+    width: 100vw;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.profile-name-container{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+.profile-head-name{
+    /* border: 2px solid green; */
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    padding: 50px 80px;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+.first-letter-color{
+    color: red;
+}
+.social-icon{
+    display: flex;
+    margin: 3% 10%;
+    padding: 5px 80px;
+}
+.anchor-social-icon{
+    padding: 10px 5px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.profile-img-container{
+    width: 50%;
+    /* border: 5px solid blue; */
+}
+.portfolio-img{
+    margin: 20% 15%;
+    border-radius: 50%;
+    /* border: 2px solid purple; */
+    box-shadow: 2px 3px 5px red;
+    height: 280px;
+    width: 280px;
+}
+.portfolio-img:hover{
+    box-shadow: -2px -3px 5px red;
+}
+
+/* _________________________________All Titles__________________________________ */
+
+.all-titles{
+    margin: 10px 50px;
+}
+
+/* _________________________________About Me__________________________________ */
+
+.about-me-container{
+    width: 100vw;
+    /* border: 2px solid orange; */
+}
+.aboutme-summary{
+    margin: 20px 100px;
+    padding: 10px 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+.about-me-xp-container{
+    width: 100vw;
+    display: flex;
+    /* border: 2px solid seagreen; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.experience-title{
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border-bottom: 1px solid red;
+    /* border: 2px solid white; */
+}
+.experience-container{
+    display: flex;
+    /* border: 2px solid brown; */
+}
+.org-td{
+    /* border: 3px solid pink; */
+    margin: 10px 20px;
+    margin-bottom: 50px;
+    padding: 10px 50px;
+    width: 300px;
+    height: 300px;
+}
+.org-title{
+    margin: 2px 15px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 5px red;
+}
+.org-date{
+    text-align: center;
+    margin: 10px 5px;
+    line-height: 25px;
+}
+.org-visit{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 2px 5px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+.org-visit:hover{
+    border: 2px solid red;
+    color: red;
+}
+.org-visit:active{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.org-description{
+    line-height: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/* ________________________________Skill__________________________________ */
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+.skill-logo-container{
+    padding: 25px 100px;
+    /* border: 2px solid green; */
+}
+.skill-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 80px;
+    padding: 20px 80px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* border: 2px solid orange; */
+}
+.li-skill{
+    text-align: center;
+    margin: 1px 30px;
+    padding: 5px 30px;
+    /* border: 2px solid palegreen; */
+}
+.skill-logo-size{
+    height: 50px;
+    width: 50px;
+}
+
+/* _________________________________Project__________________________________ */
+
+.project-grid{
+    display: flex;
+    justify-content: center;
+    margin: 3px 50px;
+    /* border: 2px solid springgreen; */
+    padding: 10px 20px;
+}
+.project-box{
+    /* border: 2px solid yellowgreen; */
+    margin: 2px 30px;
+    padding: 10px 10px;
+    width: 30%;
+    border-bottom: 1px solid white;
+    border-radius: 40px;
+}
+.project-box-heading{
+    padding: 10px 5px;
+    text-align: center;
+}
+.project-image{
+    text-align: center;
+    margin: 15px;
+    border-radius: 18px;
+    /* border: 2px solid purple; */
+}
+.project-image-size{
+    height: 200px;
+    width: 320px;
+}
+.project-button-container{
+    margin: 10px 5px;
+    text-align: center;
+}
+.project-button{
+    padding: 3px 5px;
+    margin: 2px 3px;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: small;
+}
+.project-button:hover{
+    border: 1px solid red;
+    color: red;
+}
+.project-button:active{
+    background-color: white;
+    color: black;
+    border: 1px solid white;  
+}
+#disabled-button{
+    color: #666;
+    background-color: black;
+    cursor: not-allowed;
+    border: 1px solid #666;
+}
+
+/* _________________________________Contact__________________________________ */
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid orangered; */
+    margin: 10px 150px;
+}
+.contact-form{
+    /* border: 2px solid aqua; */
+    padding: 5px 10px;
+    margin: 2px 20px;
+}
+#form-input-box{
+    margin: 50px 10px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    padding: 15px 20px;
+}
+.contact-input{
+    padding: 8px 20px;
+    padding-right: 250px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 10px;
+}
+#form-send-button{
+    padding: 5px 8px;
+    margin: 10px 3px;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: small;
+}
+#form-send-button:hover{
+    border: 1px solid red;
+    color: red;
+}
+#form-send-button:active{
+    background-color: white;
+    color: black;
+    border: 2px solid white;  
+}
+.contact-details{
+    /* border: 2px solid gainsboro; */
+    padding: 5px 10px;
+    margin: 2px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-details-box{
+    margin: 8px 10px;
+}
+.contact-details-info{
+   text-decoration: none;
+}
+.contact-details-logo-container{
+    margin: 10px;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.contact-details-logo{
+    padding: 2px 10px;
+}
+
+/* _________________________________Footer__________________________________ */
+
+.footer-container{
+    display: flex;
+   justify-content: space-around;
+   padding: 10px;
+   margin: 5px;
+}
+
